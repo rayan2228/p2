@@ -12,7 +12,7 @@ const Header = () => {
 
 
   return (
-    <header className='py-5 w-full bg-white z-50'>
+    <header className='py-5 w-full bg-white fixed top-0 left-0 z-50'>
         <div className='max-w-container mx-auto'>
             <div className='flex justify-between items-center'>
                 <div className='w-1/5'>
@@ -53,13 +53,13 @@ const Header = () => {
              <div className='relative w-full pt-[80px] pb-[30px] mt-6 flex flex-col sm:flex-row items-start sm:items-end transition-all ease-linear justify-between   border-[#333232] border-0 border-b-[1px'>
                <ul className='flex flex-col gap-4 items-start'>
                 <li>
-                  <Link href="#" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>about</Link>
+                  <Link href="/about" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>about</Link>
                 </li>
                   <li>
-                    <Link href="#" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Insights</Link>
+                    <Link href="/about" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Insights</Link>
                   </li>
                     <li>
-                      <Link href="#" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>contact</Link>
+                      <Link href="/about" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>contact</Link>
                     </li>
                </ul>
                  <div className='mb-[-25px] max-w-[600px] relative'>
@@ -67,15 +67,15 @@ const Header = () => {
                   <img src={img2} alt="image" className='absolute bottom-[12px] right-[-100px]' width={250} height={350}/>
                 </div>
                 <ul className='flex flex-col gap-4 items-start sm:items-end'>
-                           <li><Link href="#" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Shopify</Link></li>
-                           <li><Link href="#" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Composable Commerce</Link></li>
-                           <li><Link href="#" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Headless Commerce</Link></li>
-                           <li><Link href="#" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Product Configurators</Link></li>
-                           <li><Link href="#" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Headless CMS</Link></li>
-                           <li><Link href="#" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Software Development</Link></li>
-                           <li><Link href="#" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>PWAS</Link></li>
-                           <li><Link href="#" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Jamstack</Link></li>
-                           <li><Link href="#" className='py-2 text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Drupal</Link></li>
+                           <li><Link href="/about" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Shopify</Link></li>
+                           <li><Link href="/about" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Composable Commerce</Link></li>
+                           <li><Link href="/about" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Headless Commerce</Link></li>
+                           <li><Link href="/about" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Product Configurators</Link></li>
+                           <li><Link href="/about" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Headless CMS</Link></li>
+                           <li><Link href="/about" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Software Development</Link></li>
+                           <li><Link href="/about" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>PWAS</Link></li>
+                           <li><Link href="/about" className='text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Jamstack</Link></li>
+                           <li><Link href="/about" className='py-2 text-xl sm:text-2xl md:text-3xl leading-none capitalize lg:text-2xl'>Drupal</Link></li>
                        </ul>
              </div>
           </div>

@@ -26,7 +26,8 @@ const x3 = useTransform(scrollYProgress, [0, 1], ['0%', '-42%']);
 
 
   return (
-    <div className='py-[100px] bg-black'>
+    <>
+        <div className='py-[200px] bg-black'>
        <div className='max-w-container mx-auto'>
           <div className='flex flex-col'>
              <div className='flex flex-col justify-center items-center text-center text-white mb-[40px]'>
@@ -59,6 +60,14 @@ const x3 = useTransform(scrollYProgress, [0, 1], ['0%', '-42%']);
           </div>
        </div>
     </div>
+    
+
+    <div className='py-[200px] bg-teal-700'> <h1 className='font-bold text-5xl'>Teal</h1></div>
+
+    <div className='py-[200px] bg-white'><h1 className='font-bold text-5xl'>White</h1></div>
+
+    <div className='py-[200px] bg-red-700'><h1 className='font-bold text-5xl'>Red</h1></div>
+    </>
   )
 }
 
